@@ -13,7 +13,9 @@ def get_users():
     users = [
         {'id': 1, 'name': 'John'},
         {'id': 2, 'name': 'Jane'},
-        {'id': 3, 'name': 'Bob'}
+        {'id': 3, 'name': 'Bob'},
+        {'id': 4, 'name': 'Mia'},
+        {'id': 5, 'name': 'Nina'}
     ]
     return jsonify(users)
 
